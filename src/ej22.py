@@ -1,6 +1,11 @@
 #Escribir un programa que pida al usuario que introduzca una frase en la consola y una vocal, y después muestre por pantalla la misma frase pero con la vocal introducida en mayúscula.
-vocales=aeiou
-frase = input("Introduce una frase: ")
-vocalintroducida = input("Dame una vocal: ")
-for vocalintroducida in range (vocales):
-    frase = 
+vocales = str ("aeiou")
+frase = input ("dime una frase: ")
+vocal = input ("dime una vocal: ")
+for vocal in range (vocales): 
+    if vocal in vocales: 
+        vocal.upper
+    else:
+        vocal.lower
+print (frase)
+#----Resultado----
