@@ -3,7 +3,7 @@
 def main ():
     fecha_introducida = input("Introduce una fecha en formato dd/mm/aaaa: ")
     fecha = fecha_introducida.split("/")
-    print (fecha)
+    print (f"El dia que naciste es {fecha [0]}, el mes es {fecha[1]} y el año es {fecha[2]}")
 if __name__ == "__main__":
     main()
 
