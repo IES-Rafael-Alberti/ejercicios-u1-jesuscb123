@@ -1,6 +1,9 @@
 #Escribir un programa que pregunte por consola el precio de un producto en euros con dos decimales y muestre por pantalla el número de euros y el número de céntimos del precio introducido.
-precio_producto = str (input("Dime un precio"))
-entero = str(precio_producto.replace(", "2,00"))
-decimal = precio_producto.replace("2,52", "0,52")
-print (f"El número entero es: {entero}")
-print(f"El número decimal es: {decimal}")
+def main():
+    precio_introducido = input("Introduce un número con dos dec2imales: ")
+#Como los números decimales siempre van a ir separados por "," utilizamos la función .split para separar la parte entera de la decimal.
+    enteros_decimales = precio_introducido.split(",")
+    print (f"Euros: {enteros_decimales[0]} decimales: 0,{enteros_decimales[1]}")
+
+if __name__ == "__main__":
+    main()
