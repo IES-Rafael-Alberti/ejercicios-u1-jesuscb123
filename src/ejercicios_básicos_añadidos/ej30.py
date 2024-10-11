@@ -33,13 +33,12 @@ def es_impar_y_primo(num1):
 
 
 
-#He creado un rango del 1 al 30 saltándose dos números para siempre dividirlos por números impares. Va a ir dividiendo uno por uno, cuando divide, convertirá ese int en un str para poder usar la función .find. Le he indicado que en el momento que encuentre un "."(eso indica que no será divisible debido a que no da número entero sino decimales) salga del bucle e indique que el número es primo.
+#He creado un rango del 1 al 30 saltándose dos números para siempre dividirlos por números impares. Va a ir dividiendo uno por uno, cuando divide, convertirá ese int en un str para poder usar la función .find. Le he indicado que en el momento que encuentre un "."(eso indica que no será divisible debido a que no da número entero sino con decimales) salga del bucle e indique que el número es primo.
 
 def es_divisible(num1):
     for i in range (1,30,2):
         es_divisible = num1 / i
         es_divisible_str = str(es_divisible)
-        encuentra_punto = es_divisible_str.find(".")
     if es_divisible_str.find("."):
         print("El número es primo")
     
