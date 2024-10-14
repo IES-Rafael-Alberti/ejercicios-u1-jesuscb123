@@ -5,9 +5,9 @@
 def parimpar(num1):
     par = num1 % 2
     if par == 0:
-       es_par_y_primo(num1)
+      return es_par_y_primo(num1)
     else:
-        es_impar_y_primo(num1)
+        return es_impar_y_primo(num1)
 
 
 

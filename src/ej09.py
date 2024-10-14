@@ -1,2 +1,2 @@
 #¿Es posible escribir el programa del ejercicio 1.7 sin usar variables? Inténtalo.
-print(float(input("Numero1: ") + float (input("Numero2: "))))
+print(f"El resultado es: {int(input("Introduce un número: ")) + int(input("Introduce otro número: ")) + int(input("Introduce un tercer número: "))}")
