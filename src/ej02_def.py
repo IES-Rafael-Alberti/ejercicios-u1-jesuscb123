@@ -1,5 +1,5 @@
 def coste_horas(horas,preciohora):
-   importe_servicio = horas + preciohora
+   importe_servicio = horas * preciohora
    return f"El importe total {importe_servicio}"
     
 

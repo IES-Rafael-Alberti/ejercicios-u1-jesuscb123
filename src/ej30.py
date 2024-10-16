@@ -14,8 +14,8 @@ def comprobar_si_es_positivo(num_inicio,incremento,total_serie):
 
 
 def serie(num_inicio,incremento,total_serie):
-        for i in range(num_inicio,total_serie + 1,incremento):
-             print(i,end="-")
+        for serie in range(num_inicio,total_serie + 1,incremento):
+             print(serie,end="-")
 
 
 

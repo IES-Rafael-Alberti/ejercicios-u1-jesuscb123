@@ -34,7 +34,7 @@ def comprobar_si_es_entero(num_user):
 
 def introduce_entero(num_user):
         num_user = input("Introduce un número del 1 al 100: ")
-        return comprobar_si_es_entero(num_user)
+        comprobar_si_es_entero(num_user)
 
     
 def main():
