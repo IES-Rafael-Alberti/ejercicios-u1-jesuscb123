@@ -21,7 +21,7 @@ def adivina(num_user,num_pc):
             print("Templado...")
         elif diferencia_absoluta < 50:
             print("Estás cerca y a la vez lejos...")
-        elif diferencia_absoluta < 70 or diferencia > 70: 
+        elif diferencia_absoluta < 70 or diferencia_absoluta > 70: 
             print ("CONGELADO")
         
 
