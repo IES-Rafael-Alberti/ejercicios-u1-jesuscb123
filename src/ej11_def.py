@@ -2,7 +2,7 @@
 
 #He creado una función que hace que la variable suma almacene el número introducido por la suma de el número +1 y luego lo divida todo entre 2. Luego ese valor se retorna debido a que main hará un print de la función y se mostrará.
 def serie (num):
-    suma = (num * (num +1)) / 2
+    suma = (num * (num +1) / 2)
     return suma
 
 

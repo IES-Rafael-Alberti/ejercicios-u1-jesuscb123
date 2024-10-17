@@ -1,4 +1,4 @@
 import pytest
-from src.ej04_def import grado
-def test_grado():
-    assert test_grado(5) == -15.00(5.00)
+from src.ej04_def2 import grados_celsius
+def test_grados_celsius():
+    assert grados_celsius(1.0) == -17.22
