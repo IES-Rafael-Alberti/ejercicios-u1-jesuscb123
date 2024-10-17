@@ -11,17 +11,17 @@ def adivina(num_user,num_pc):
         diferencia_absoluta = abs(diferencia)
         if num_user == num_pc:
             return True
-        elif diferencia < 2:
+        elif diferencia_absoluta < 2:
             print("TE QUEMAS")
-        elif diferencia < 5:
+        elif diferencia_absoluta < 5:
             print("ARDIENDO")
-        elif diferencia < 10:
+        elif diferencia_absoluta < 10:
             print("CALENTITO...")
-        elif diferencia < 20:
+        elif diferencia_absoluta < 20:
             print("Templado...")
-        elif diferencia < 50:
+        elif diferencia_absoluta < 50:
             print("Estás cerca y a la vez lejos...")
-        elif diferencia < 70 or diferencia > 70: 
+        elif diferencia_absoluta < 70 or diferencia > 70: 
             print ("CONGELADO")
         
 
