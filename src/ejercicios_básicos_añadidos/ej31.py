@@ -10,9 +10,8 @@ def divisores(num1):
     
 
 def main():
-    num1 = int(input("Dame un número: "))
-    print (divisores(num1))  
-
+    num1 = int(input("Dame un número: ")) 
+    divisores(num1)
 
 
 if __name__ == "__main__":
